@@ -1,0 +1,36 @@
+html {
+    width: 320px;
+    height: 212px;
+    background-color: rgb(8, 8, 36);
+}
+
+header {
+    display: flex;
+    background-color: rgb(77, 77, 255);
+    margin: 0;
+    div {
+        margin: 2px;
+        flex-grow: 4;
+        text-align: center;
+        a {
+            color: white;
+        }
+    }
+}
+
+main {
+    color: white;
+}
+
+footer {
+    background-color: rgb(8, 8, 36);
+    display: flex;
+    div {
+        margin: 2px;
+        flex-grow: 4;
+        text-align: center;
+        a {
+            color: yellow
+        }
+    }
+}
