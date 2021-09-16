@@ -24,6 +24,43 @@ header div a {
   color: white;
 }
 
+header .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background: grey;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+header .tg td {
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px5px;
+  word-break: normal;
+}
+
+header .tg th {
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px5px;
+  word-break: normal;
+}
+
+header .tg .tg-0lax {
+  text-align: center;
+  vertical-align: center;
+}
+
 main {
   color: white;
 }
