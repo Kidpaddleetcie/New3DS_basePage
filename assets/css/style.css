@@ -28,22 +28,7 @@ main {
   color: white;
 }
 
-footer {
-  background-color: #080824;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-footer div {
-  margin: 2px;
-  -webkit-box-flex: 4;
-      -ms-flex-positive: 4;
-          flex-grow: 4;
-  text-align: center;
-}
-
-footer div a {
+main a {
   color: yellow;
 }
 /*# sourceMappingURL=style.css.map */

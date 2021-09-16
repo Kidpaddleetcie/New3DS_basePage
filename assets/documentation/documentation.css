@@ -1,0 +1,86 @@
+html {
+  width: 320px;
+  height: 212px;
+  background-color: #080824;
+  color: white;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #4d4dff;
+  margin: 0;
+}
+
+header div {
+  margin: 2px;
+  -webkit-box-flex: 4;
+      -ms-flex-positive: 4;
+          flex-grow: 4;
+  text-align: center;
+}
+
+header div a {
+  color: white;
+}
+
+main .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background: grey;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+main .tg td {
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px5px;
+  word-break: normal;
+}
+
+main .tg th {
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px5px;
+  word-break: normal;
+}
+
+main .tg .tg-0lax {
+  text-align: center;
+  vertical-align: center;
+}
+
+main h2 {
+  text-align: center;
+}
+
+main .more {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .more a {
+  margin: 5px;
+  color: wheat;
+  background-color: #002147;
+  padding: 5px;
+}
+/*# sourceMappingURL=documentation.css.map */
