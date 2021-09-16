@@ -47,12 +47,15 @@
     <script>
         window.onkeydown = function(e) {
             switch (e.keyCode) {
+                // Le bouton "Gauche"
                 case 37:
                     document.getElementById('left').classList.toggle("press");
                     setTimeout(function() {
                         document.getElementById('left').classList.toggle("press");
                     }, 100);
                     break;
+
+                    // Le bouton "Droit"
                 case 39:
                     if (event.isComposing || event.keyCode === 39) {
                         document.getElementById('right').classList.toggle("press");
@@ -61,12 +64,16 @@
                         }, 100);
                     }
                     break;
+
+                    // Le bouton "Haut"
                 case 38:
                     document.getElementById('up').classList.toggle("press");
                     setTimeout(function() {
                         document.getElementById('up').classList.toggle("press");
                     }, 100);
                     break;
+
+                    // Le bouton "Bas"
                 case 40:
                     if (event.isComposing || event.keyCode === 40) {
                         document.getElementById('down').classList.toggle("press");
@@ -75,6 +82,8 @@
                         }, 100);
                     }
                     break;
+
+                    // Le bouton "A"
                 case 13:
                     if (event.isComposing || event.keyCode === 13) {
                         document.getElementById('a').classList.toggle("press");
