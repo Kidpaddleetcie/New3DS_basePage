@@ -28,7 +28,7 @@
                 </tr>
                 <tr>
                     <td class="tg-0lax">Browser</td>
-                    <td class="tg-0lax">Nintendo Browser ( 32-bit ) ( Engine : WebKit )</td>
+                    <td class="tg-0lax">Navigateur Netfront NX v3.0</td>
                 </tr>
                 <tr>
                     <td class="tg-0lax">Fingerprinting Resistance</td>
@@ -142,7 +142,7 @@
 
             </tbody>
         </table>
-        <h2>Pour aller plus loin</h2>
+        <h2>Les sources</h2>
         <div class="more">
             <table class="tg">
                 <tbody>
@@ -150,6 +150,8 @@
                         <td class="tg-0lax">
                             <a href="https://developers.whatismybrowser.com/useragents/parse/787612nintendo-browser-nintendo-3ds-netfront">Nintendo Browser Nintendo 3DS NetFront (WhatIsMyBrowser)</a>
                         </td>
+                    </tr>
+                    <tr>
                         <td class="tg-0lax">
                             <a href="https://user-agents.net/string/mozilla-5-0-new-nintendo-3ds-like-iphone-applewebkit-536-30-khtml-like-gecko-nx-3-0-0-5-20-mobile-nintendobrowser-1-9-10160-us
 ">Mozilla 5.0 New Nintendo 3DS like Iphone AppleWebKit (User-agents)
@@ -161,9 +163,19 @@
 
                         <td class="tg-0lax">
                             <a href="https://en-americas-support.nintendo.com/app/answers/detail/a_id/13802/~/what-is-supported-by-the-internet-browser
-">Les infos qu'offre Nintendo America (Nintendo Support)
+">Les infos qu'offre Nintendo America 1/2 (Nintendo Support)
 </a>
                         </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">
+                            <a href="https://fr-americas-support.nintendo.com/app/answers/detail/a_id/23746/~/sp%E3%A9cifications-du-navigateur%E2%A0internet-de-la-nintendo%E2%A03ds
+
+">Les infos qu'offre Nintendo America 2/2 (Nintendo Support)
+</a>
+                        </td>
+                    </tr>
+                    <tr>
                         <td class="tg-0lax">
                             <a href="http://surii.net/hack/dev.html
 ">Developer Journal (Surii)
@@ -174,6 +186,29 @@
             </table>
         </div>
 
+        <h2>La différence entre le "mobile" et le mode normal</h2>
+        <p>Certains sites webs ne font pas une adaptation automatique de leur contenu en fonction de la taille de l'écran du navigateur web. Cela est dû à un choix d'adaptation pour améliorer les performances tout en allégant le travail des dévellopeurs
+            qui ne doivent pas travailler avec des gros fichiers HTML mais des petits fichiers HTML ayant les même informations mais adaptés en fonction de l'affichage à donné.
+        </p>
 
+        <p>Comprenez que la version "mobile" donne l'information que la New3DS est un iPhone... en quelques sorte. </p>
+
+        <h2>Les problèmes des vidéos</h2>
+        <p>Un des gros soucis que le navigateur possède est sa compatibilité avec les vidéos.</p>
+        <p>Le fait que le OS de la New3DS est sortie en fin 2014 et est une version remaniée de celui de la 3DS sortit en début 2011 qui était lui-même une version remaniée de l'OS de la Nintendo DSi de fin 2008 , le browser n'est pas compatible avec l'ensemble
+            des normes HTML5 qui ont été officialisées en fin 2014 par le W3C. </p>
+        <p>L'erreur "032-2901" est très récurrente et ne possède pas une explication précise ( même Nintendo dit " des fois ça marche, des fois pas... lol, on ne sait pas pourquoi nous-même ! " ) et des sites comme Dailymotion qui sont passés très vite (
+            voir TROP vite ) au lecteur HTML5 ne sont pas consultable pour leurs vidéos.
+        </p>
+        <p>On peut émettre l'hypothèse que le système est trop limité mais ce n'est pas autant le cas pour les vidéos. En effet, la balise "video", le ".mp4" est lisible avec le codec H.264 avec comme résolution maximum "854x480" avec un niveau 3.2.</p>
+        <p>Pour faire simple, il faut privilégier YouTube pour la consultation de vidéo sur le navigateur web de la New Nintendo 3DS. C'est le 480p qui sera choisit.</p>
+
+        <h2>Wikipédia n'est pas accessible</h2>
+        <p>Quand on tente d'accéder à Wikipédia , le code d'erreur "032-1035" apparait avec le message "La page n'a pas pu être affichée.".</p>
+        <p>C'est une histoire de protocole TLS et SSL.</p>
+        <p>Le TLS ( pour "Transport Layer Security", "Sécurité de la couche de transport") est peut aller jusqu'à sa version 1.2 sur New3DS alors que nous sommes , depuis 2018 , sur la version 1.3. qui a abandonné le support des algorithmes trop faibles
+            comme MD4, RC4, DSA ou SHA-224.
+        </p>
+        <p>Bien évidemment, Wikipédia, comme beaucoup d'autres sites web, a mit à jour son TLS en v1.3 malgré le refus de Google d'en faire autant pour YouTube et ses autres sites web. </p>
     </main>
 </body>

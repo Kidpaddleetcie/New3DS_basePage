@@ -28,7 +28,6 @@ header div a {
 main .tg {
   border-collapse: collapse;
   border-spacing: 0;
-  background: grey;
   width: 100%;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -41,8 +40,9 @@ main .tg td {
   font-family: Arial, sans-serif;
   font-size: 14px;
   overflow: hidden;
-  padding: 10px5px;
+  padding: 10px 5px;
   word-break: normal;
+  background: grey;
 }
 
 main .tg th {
@@ -53,8 +53,9 @@ main .tg th {
   font-size: 14px;
   font-weight: normal;
   overflow: hidden;
-  padding: 10px5px;
+  padding: 10px 5px;
   word-break: normal;
+  background: grey;
 }
 
 main .tg .tg-0lax {
@@ -62,11 +63,11 @@ main .tg .tg-0lax {
   vertical-align: center;
 }
 
-main h2 {
-  text-align: center;
+main .tg .tg-0lax a {
+  color: yellow;
 }
 
-main .more a {
-  color: yellow;
+main h2 {
+  text-align: center;
 }
 /*# sourceMappingURL=documentation.css.map */
