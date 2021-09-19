@@ -21,8 +21,14 @@
 
         <p>Il est intéressant à remarquer qu'il n'y a que cette vidéo qui fonctionne hors YouTube et quelques autres sites web: <a href="https://tools.woolyss.com/html5-audio-video-tester/?u=video.dailymail.co.uk/video/1418450360/2015/02/1418450360_4056782948001_nerdist--1424015378606.mp4">https://tools.woolyss.com/html5-audio-video-tester/?u=video.dailymail.co.uk/video/1418450360/2015/02/1418450360_4056782948001_nerdist--1424015378606.mp4</a>            </p>
 
-        <p>Testons donc sur notre site cette vidéo pour en apprendre davantage sur l'origine de l'erreur "032-2901"!</p>
-        <video id="media" preload="auto" controls="controls" autoplay="autoplay" width="720" height="405">
+        <p>Testons donc les vidéos pour en apprendre davantage sur l'origine de l'erreur "032-2901"!</p>
+        <p>Je tiens à rappeler que dans <a href="../documentation/documentation.html">la page documentation</a>, nous avons appris que la vidéo doit:</p>
+        <ol>
+            <li>Être compressé en mp4 H264</li>
+            <li>Avoir son audio en AAC</li>
+            <li> Avoir les dimensions maximum 856x400</li>
+        </ol>
+        <video id="media" preload="auto" controls="controls" autoplay="autoplay">
             <div class="warning">Your browser does not support the HTML &lt;video&gt; tag! :/</div>
             <source src="Layton vous vole le meme.mp4">
         </video>
