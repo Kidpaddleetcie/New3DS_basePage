@@ -20,6 +20,9 @@
     }
     
     main {
+        a {
+            color: greenyellow;
+        }
         .tg {
             border-collapse: collapse;
             border-spacing: 0;
@@ -59,5 +62,19 @@
         }
         h2 {
             text-align: center;
+        }
+        blockquote {
+            border-left: dotted yellow 2px;
+            padding-left: 5px;
+            &::before {
+                content: '"[...]';
+                color: yellow;
+                font-weight: bold;
+            }
+            &::after {
+                content: '[...]"';
+                color: yellow;
+                font-weight: bold;
+            }
         }
     }

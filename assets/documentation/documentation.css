@@ -25,6 +25,10 @@ header div a {
   color: white;
 }
 
+main a {
+  color: greenyellow;
+}
+
 main .tg {
   border-collapse: collapse;
   border-spacing: 0;
@@ -69,5 +73,22 @@ main .tg .tg-0lax a {
 
 main h2 {
   text-align: center;
+}
+
+main blockquote {
+  border-left: dotted yellow 2px;
+  padding-left: 5px;
+}
+
+main blockquote::before {
+  content: '"[...]';
+  color: yellow;
+  font-weight: bold;
+}
+
+main blockquote::after {
+  content: '[...]"';
+  color: yellow;
+  font-weight: bold;
 }
 /*# sourceMappingURL=documentation.css.map */
