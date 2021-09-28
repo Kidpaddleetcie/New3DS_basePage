@@ -20,7 +20,9 @@
     <main>
 
         <p>Il est intéressant à remarquer qu'il n'y a que cette vidéo qui fonctionne hors YouTube et quelques autres sites web: <a href="https://tools.woolyss.com/html5-audio-video-tester/?u=video.dailymail.co.uk/video/1418450360/2015/02/1418450360_4056782948001_nerdist--1424015378606.mp4">https://tools.woolyss.com/html5-audio-video-tester/?u=video.dailymail.co.uk/video/1418450360/2015/02/1418450360_4056782948001_nerdist--1424015378606.mp4</a>            </p>
-
+        <video preload="auto" controls="controls" autoplay="autoplay">
+   <source src="https://video.dailymail.co.uk/video/1418450360/2015/02/1418450360_4056782948001_nerdist--1424015378606.mp4" type='video/mp4; codecs="avc1.42c015,mp4a.40.2"'>
+</video>
         <p>Testons donc les vidéos pour en apprendre davantage sur l'origine de l'erreur "032-2901"!</p>
         <p>Je tiens à rappeler que dans <a href="../documentation/documentation.html">la page documentation</a>, nous avons appris que la vidéo doit être avec le codec " avc1.42c015,mp4a.40.2 " et donc:</p>
         <ol>
@@ -39,4 +41,9 @@
 
 
     </main>
+
+    <script>
+        HTMLMediaElement.canPlayType('video/mp4; codecs="avc1.42c015,mp4a.40.2"');
+        MediaSource.isTypeSupported('video/mp4; codecs="avc1.42c015,mp4a.40.2"');
+    </script>
 </body>
